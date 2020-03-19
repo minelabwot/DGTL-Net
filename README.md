@@ -9,4 +9,5 @@ faulty samples for training the models. However, in reality, there are types of 
 1. To improve the generalization of transferring learning model when faulty samples are absent on target domain, a new deep learning network (DGTL-Net) is developed. The network consists of two sub-networks with shared feature extractor: one sub-network is a deep generative network which could generate fake faulty samples for new hard disks based on their healthy samples; the other is a deep transfer network that minimizes the distribution discrepancy between domains.
 2. To guarantee the most optimal parameters of deep generative network and deep transfer network simultaneously, an iterative end-end training strategy is proposed for DGTL-Net. The entire training process is based on Expectation-Maximization (EM) methodology which is divided into two parts. 
 
-![](.\pics\1.jpg)
+<center><img src="./pics/1.jpg" width = "60%" height = "60%"/></center>
+
